@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section{
+
+    width: 600px;
+    margin: 0px auto;  
+    margin-top: 10vh; 
+}
+.ingrediants{
+    width:1400px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: -330px;
+}
+.instructions{
+    width: 600px;
+    margin: 0px auto;
+}
+.sub-1{
+    
+    width: 600px;
+    margin: 0px auto;  
+}
+
+.header-sec h3{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.header-sec p{
+
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 10px 0px;
+
+}
+.recipe-img img{
+
+    width: 700px;
+    height: 40vh;
+    object-fit: cover;    
+}
+
+
+.time{
+
+    width: 180px;
+    height: 360px;
+    box-shadow: rgb(243, 243, 243);
+    border-radius: 5px;
+    bottom: 13vh;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.time .time-item:nth-child(1){
+    margin-top: 20px;
+}
+.time-img img{
+
+    width: 27px;
+    height: 25px;
+}
+.time-item{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8vh; 
+}
+.time-content p:nth-child(1){
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.time-content p:nth-child(2){
+    font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+
+}
+ .ingrediant{
+
+    position: relative;
+    right: 56vh;
+}
+.time{
+    position: relative;
+    left:75vh;
+    bottom: 95vh;
+}
+.ingrediant .ing-title{
+    position: relative;
+    left: 54vh;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.ingrediant h4{
+
+    position: relative;
+    left: 54vh;     
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 0px;
+
+}
+.graham-ingredients input{
+
+    color: black;
+    border: 1px solid #828282;
+    
+}
+.graham-cracker{
+
+    position: relative;
+    left:55vh;
+    padding-top: 5vh;
+}
+.graham-ingredients{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;    
+}
+.graham-ingredients p span{
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.graham-ingredients p{
+
+    
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.instruc-item{
+    display: flex; 
+    flex-direction: row;     
+}
+.instruc-item:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+}
+.instruc-item:nth-child(odd){
+    margin-bottom: 35vh;
+}
+.instruc-item:nth-child(even){
+    margin-bottom: 34vh;
+}
+.inst-item1{
+    height: 36px;
+    width: 36px;
+    left: 236px;
+    top: 1513px;
+    border-radius: 6px;
+    background: #F2994A;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+.inst-content{
+    height: 40px;
+    width: 528px;
+    left: 287px;
+    top: 1442px;
+    border-radius: nullpx;
+    margin-left: 10px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.inst-content span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+footer{
+
+    width: 300px;
+    margin: 10px auto;
+}
+footer p{
+
+    color:rgb(15, 15, 15);
+}
+footer p a{
+
+    text-decoration: none;
+    color:black;
+}
+
+
+@media screen and (min-width:360px) and (max-width:768px){
+    
+    .ingrediants{
+        width: 0px;
+        height: 200vh;
+    }
+    .ingrediant{
+        position: relative;
+        right: 56vh;
+        top: 17vh;
+    }
+    .time{
+        position: relative;
+        left: -3vh;
+        bottom: 116vh;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        width: 600px;
+        height: 102px;
+    }
+    .time .time-item:nth-child(1) {
+        margin-top: 20px;
+    }
+    .time-item {
+        display: flex;
+        justify-content: space-around;
+        /* margin-bottom: 8vh; */
+        margin: 20px;
+    }
+    .time-item .time-img{
+        margin-right: 4px;
+    }
+    .main-instruction-content{
+
+        margin-left: 25px;
+    }
+    .instructions .ing-title{
+        margin-left: 25px;
+    }
+    .header-sec h3{
+        margin-left: 48px;
+    }
+    .header-sec p{
+        margin-left: 50px;
+         margin-bottom: 10px;
+    }
+    .recipe-img img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .recipe-img{
+        margin-left: 50px;
+    }
+    
+}
